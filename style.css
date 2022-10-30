@@ -1,0 +1,195 @@
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.theme{
+    text-align: center;
+
+}
+
+.input {
+    width: 200px;
+    height: 30px;
+    border: 2px solid rgb(82, 96, 188);
+    border-radius: 8px;
+    outline: none;
+    margin-left: 20px;
+}
+
+.btn {
+    padding:10px;
+    background: rgb(82, 96, 188);
+    border-radius: 8px;
+    border: 2px solid rgb(82, 96, 188);
+    outline: none;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+.btn:hover{
+    background: white;
+    border: 2px solid rgb(82, 96, 188);
+    color: rgb(82, 96, 188);
+}
+
+.clean {
+    padding:10px;
+    background: rgb(171, 16, 3);
+    border-radius: 8px;
+    border: 2px solid rgb(171, 16, 3);
+    outline: none;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+.clean:hover{
+    background: white;
+    border: 2px solid rgb(171, 16, 3);
+    color: rgb(171, 16, 3);
+}
+
+.todo-item {
+    width: 350px;
+    height: 40px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.del-btn {
+    background: rgb(192, 3, 3);
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+i {
+    color: white;
+}
+
+.upd-btn {
+    background: rgba(1, 135, 50, 0.999);
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+    background: green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+}
+
+.gen {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    height: 240px;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.check-todo {
+    width: 30px;
+    height: 30px;
+    border: 2px solid green;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.gen-btn {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin: 2px;
+}
+
+
+hr {
+    width: 400px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.done-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    overflow-y: auto;
+    height: 240px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.done-title{
+    text-decoration: line-through;
+}
+
+.save-btn{
+    background: #e3de02;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+.cancel-btn{
+    background: gray;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+
+

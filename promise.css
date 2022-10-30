@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.display-img{
+    background: rgb(195, 33, 216);
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    color: white;
+    padding: 5px 8px;
+    cursor: pointer;
+    margin: 0 250px 10px 100px;
+}
+img{
+    width: 300px;
+    height: 250px;
+    object-fit: contain;
+}
+.col-4{
+display: flex;
+align-items: center;
+}
+.col-3{
+    display: flex;
+}
+.breed-select{
+width: 230px;
+height: 30px;
+border-radius: 5px;
+border:2px solid rgb(195, 33, 216);
+}
+.button-success{
+    padding: 5px 8px;
+background: green;
+margin: 10px;
+}
